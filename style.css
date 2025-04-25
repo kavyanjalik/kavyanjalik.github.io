@@ -17,3 +17,17 @@ nav a {
   text-decoration: none;
   color: #336699;
 }
+
+.profile {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.selected-work {
+  list-style-type: none;
+  padding: 0;
+}
+
+.selected-work li {
+  margin-bottom: 1rem;
+}
