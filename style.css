@@ -12,22 +12,20 @@ body {
   padding: 1rem;
 }
 
-nav a {
-  margin-right: 15px;
-  text-decoration: none;
-  color: #336699;
-}
-
 .profile {
   max-width: 150px;
   border-radius: 50%;
 }
 
-.selected-work {
+h1 {
+  margin-top: 0;
+}
+
+ul {
   list-style-type: none;
   padding: 0;
 }
 
-.selected-work li {
+ul li {
   margin-bottom: 1rem;
 }
