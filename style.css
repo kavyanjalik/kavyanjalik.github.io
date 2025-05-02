@@ -9,19 +9,19 @@ body {
 }
 
 #header {
-    background-color: #8C1515;
+    background-image: url('assets/keyword_cooccurrences_betweenness.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* adjust height as needed */
     color: white;
-    padding: 1em 0;
-    margin-bottom: 1em;
 }
 
 #header-content {
-    max-width: 800px;
-    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1em;
 }
 
 #name-title h1 {
