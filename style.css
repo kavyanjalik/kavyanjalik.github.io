@@ -10,15 +10,14 @@ body {
 
 #header {
     background-image: url('assets/keyword_cooccurrences_betweenness.png');
-    background-size: contain; /* show full image, zoomed out */
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: black;
     height: 400px;
     display: flex;
-    justify-content: center;
     align-items: center;
     color: white;
-    position: relative;
 }
 
 
@@ -29,6 +28,9 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px 30px;
     border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px; /* same as #container */
 }
 
 
