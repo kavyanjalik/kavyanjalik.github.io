@@ -12,24 +12,32 @@ body {
     background-image: url('assets/keyword_cooccurrences_betweenness.png');
     background-size: cover;
     background-position: center;
-    height: 300px; /* adjust height as needed */
+    height: 320px;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+
 #header-content {
-    background-color: rgba(0, 0, 0, 0.6); /* slightly darker overlay */
-    padding: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%; /* ensures it takes full header height */
-    flex-wrap: wrap; /* allow text and image to stack on small screens */
+    width: 90%;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
+
 #name-title {
-    color: white; /* ensure visibility */
+    color: white;
     max-width: 70%;
+    padding-right: 20px;
 }
+
 
 #name-title h1 {
     margin: 0;
@@ -44,6 +52,7 @@ body {
     border-radius: 50%;
     border: 3px solid white;
     object-fit: cover;
+    margin-left: 20px;
 }
 
 #container {
