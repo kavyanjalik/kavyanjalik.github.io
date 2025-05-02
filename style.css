@@ -12,18 +12,17 @@ body {
     background-image: url('assets/keyword_cooccurrences_betweenness.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: cover;
     background-color: black;
     height: 400px;
     display: flex;
     align-items: center;
-    color: white;
 }
 
 
 #header-content {
     display: flex;
-    align-items: center;
+    align-items: left;
     gap: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px 30px;
