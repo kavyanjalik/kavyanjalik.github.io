@@ -17,11 +17,18 @@ body {
 }
 
 #header-content {
-    background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
-    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* slightly darker overlay */
+    padding: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%; /* ensures it takes full header height */
+    flex-wrap: wrap; /* allow text and image to stack on small screens */
+}
+
+#name-title {
+    color: white; /* ensure visibility */
+    max-width: 70%;
 }
 
 #name-title h1 {
@@ -30,10 +37,6 @@ body {
     font-weight: normal;
 }
 
-#name-title p {
-    margin: 0.2em 0 0 0;
-    font-size: 1.1em;
-}
 
 #profile-photo {
     width: 120px;
