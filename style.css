@@ -9,7 +9,7 @@ body {
 }
 
 #header {
-    background-image: url('assets/keyword_cooccurrences_betweenness%20copy.png');
+    background-image: url('assets/keyword_cooccurrences_betweenness.png');
     background-size: contain; /* show full image, zoomed out */
     background-repeat: no-repeat;
     background-position: center;
