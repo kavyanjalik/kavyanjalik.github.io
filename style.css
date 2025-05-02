@@ -10,27 +10,27 @@ body {
 
 #header {
     background-image: url('assets/keyword_cooccurrences_betweenness.png');
-    background-size: contain; /* show full square image */
+    background-size: contain; /* prevents stretching */
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center; /* centres image horizontally */
     background-color: black;
     height: 400px;
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* align content to the left */
 }
-
 
 #header-content {
     display: flex;
-    align-items: center; /* correct value */
+    align-items: center;
     gap: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px 30px;
     border-radius: 12px;
-    margin-left: 60px;
-    max-width: 600px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto; /* centres this content block */
 }
+
 
 
 #name-title {
