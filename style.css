@@ -225,3 +225,32 @@ ul li {
     text-decoration: underline;
 }
 
+.card-header {
+    cursor: pointer;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle-arrow {
+    transition: transform 0.3s ease;
+    font-size: 1.2em;
+    color: #8C1515;
+}
+
+/* Rotate arrow when open */
+.analysis-card.open .toggle-arrow {
+    transform: rotate(90deg);
+}
+
+.card-body {
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.analysis-card.open .card-body {
+    display: block;
+}
