@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kavyanjali - Data Analysis</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+        /* Additional styles for the Data Analysis page */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .analysis-card {
+            border: 1px solid #eee;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .analysis-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        
+        .card-image {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .card-content {
+            padding: 15px;
+        }
+        
+        .card-content h3 {
+            color: #8C1515;
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+        
+        .card-content p {
+            margin: 0;
+            color: #555;
+        }
+        
+        .page-intro {
+            margin-bottom: 30px;
+        }
+        
+        /* Navigation menu */
+        .nav-menu {
+            background-color: #f5f5f5;
+            padding: 10px 0;
+            margin-bottom: 30px;
+        }
+        
+        .nav-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .nav-menu a {
+            margin: 0 15px;
+            color: #8C1515;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        
+        .nav-menu a:hover {
+            background-color: #e9e9e9;
+        }
+        
+        .nav-menu a.active {
+            background-color: #8C1515;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<!-- Banner Section (reusing the same header style) -->
+<div id="header"></div>
+
+<!-- Navigation Menu -->
+<div class="nav-menu">
+    <div class="nav-container">
+        <a href="index.html">Home</a>
+        <a href="data_analysis.html" class="active">Data Analysis</a>
+        <!-- Add more navigation links as needed -->
+    </div>
+</div>
+
+<!-- Intro block (reusing the same style) -->
+<div id="intro-block">
+    <div id="photo-container">
+        <img src="assets/Kavyanjali_Photo%20copy.jpeg" alt="Kavya Anjali" id="profile-photo">
+    </div>
+    <div>
+        <div id="name-title">
+            <h1>Kavyanjali (Kav)</h1>
+            <p>Doctoral Researcher</p>
+        </div>
+        <p>
+            University Carlos III of Madrid<br>
+            Department of Social Sciences<br>
+            Email: <a href="mailto:kkaushik@pa.uc3m.es">kkaushik@pa.uc3m.es</a>
+        </p>
+    </div>
+</div>
+
+<div id="container">
+    <div id="content">
+        <h2>Data Analysis</h2>
+        
+        <div class="grid-container">
+            <!-- Analysis Card 1 -->
+            <div class="analysis-card">
+                <img src="images/Germany_top100_MutualFriendsNetwork.png" alt="friend network" class="card-image">
+                <div class="card-content">
+                    <h3>Social Network Analysis using R</h3>
+                    <p>SNA showing network of influential users tweeting on gender equality during Women's Day.</p>
+                </div>
+            </div>
+            
+            <!-- Analysis Card 2 -->
+            <div class="analysis-card">
+                <img src="images/abm network_phd 50th tick 100 agents.png" alt="Sentiment Analysis" class="card-image">
+                <div class="card-content">
+                    <h3>Agent-Based Modelling using Python and NetoLogo</h3>
+                    <p>ABM stimulating diffusion of xenophobic language on a social media network among agents holding different national identities, conducted as part of PhD research on digital media's impact on political behaviour.</p>
+                </div>
+            </div>
+          
+            <!-- Analysis Card 3 -->
+            <div class="analysis-card">
+                <img src="images/GE_Italy_TopicModels_WordProbability.jpeg" alt="LDA Topic Modelling using R" class="card-image">
+                <div class="card-content">
+                    <h3>Topic Modelling using R</h3>
+                    <p>Latent Dirichlet Allocation (LDA) topic modelling, conducted as exploratory data analysis for paper <a href="https://www.cogitatiopress.com/politicsandgovernance/article/view/4751">Gender Politics and Transnational Value Contestation</a></p>
+                </div>
+            </div>
+            
+            <!-- Analysis Card 4 -->
+            <div class="analysis-card">
+                <img src="images/gender_locations.png" alt="Value Differentiation in Europe" class="card-image">
+                <div class="card-content">
+                    <h3>Social Media Trend Analysis using R and Python</h3>
+                    <p>The map shows the geographical distribution of tweets containing keywords and hashtags related to gender equality.</p>
+                </div>
+            </div>
+            
+            <!-- Analysis Card 5 -->
+            <div class="analysis-card">
+                <img src="images/twitter_ioj_transnational.png" alt="Survey" class="card-image">
+                <div class="card-content">
+                    <h3>Survey Data Analysis using R</h3>
+                    <p>Multi-country OLS regression exploring the relationship between political use of social media and support for judicial independence across six European nations, conducted as exploratory data analysis for paper <a href="https://www.tandfonline.com/doi/epdf/10.1080/23745118.2025.2451203?needAccess=true">Differentiation of Democratic Values in Europe</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="footer">
+        Last updated: May 2025
+    </div>
+</div>
+</body>
+</html>
