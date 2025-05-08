@@ -103,17 +103,19 @@
     </div>
 </div>
 
-<div id="container">
-    <div id="content">
-        <div class="grid-container">
-            <!-- Analysis Card 1 -->
-            <div class="analysis-card">
-                <img src="images/Germany_top100_MutualFriendsNetwork.png" alt="friend network" class="card-image">
-                <div class="card-content">
-                    <h3>Social Network Analysis using R</h3>
-                    <p>SNA showing network of influential users tweeting on gender equality during Women's Day.</p>
-                </div>
-            </div>
+<div class="analysis-card">
+    <div class="card-header" onclick="toggleCard(this)">
+        <div class="card-title">
+            <h3>Social Network Analysis using R</h3>
+            <span class="toggle-arrow">&#9654;</span> <!-- right-pointing arrow -->
+        </div>
+        <p>SNA showing network of influential users tweeting on gender equality during Women's Day.</p>
+    </div>
+    <div class="card-body">
+        <img src="images/Germany_top100_MutualFriendsNetwork.png" alt="friend network" class="card-image">
+    </div>
+</div>
+
             
             <!-- Analysis Card 2 -->
             <div class="analysis-card">
