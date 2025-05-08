@@ -102,60 +102,83 @@
         <!-- Add more navigation links as needed -->
     </div>
 </div>
-            <div class="analysis-card">
-                <div class="card-header" onclick="toggleCard(this)">
-                    <div class="card-title">
-                        <h3>Social Network Analysis using R</h3>
-                        <span class="toggle-arrow">&#9654;</span> <!-- right-pointing arrow -->
-                    </div>
-                    <p>SNA showing network of influential users tweeting on gender equality during Women's Day.</p>
-                </div>
-                <div class="card-body">
-                    <img src="images/Germany_top100_MutualFriendsNetwork.png" alt="friend network" class="card-image">
-                </div>
-            </div>            
-            <!-- Analysis Card 2 -->
-            <div class="analysis-card">
-                <img src="images/abm network_phd 50th tick 100 agents.png" alt="Sentiment Analysis" class="card-image">
-                <div class="card-content">
-                    <h3>Agent-Based Modelling using Python and NetoLogo</h3>
-                    <p>ABM stimulating diffusion of xenophobic language on a social media network among agents holding different national identities, conducted as part of PhD research on digital media's impact on political behaviour.</p>
-                </div>
-            </div>
-            
-          
-            <!-- Analysis Card 3 -->
-            <div class="analysis-card">
-                <img src="images/GE_Italy_TopicModels_WordProbability.jpeg" alt="LDA Topic Modelling using R" class="card-image">
-                <div class="card-content">
-                    <h3>Topic Modelling using R</h3>
-                    <p>Latent Dirichlet Allocation (LDA) topic modelling, conducted as exploratory data analysis for paper <a href="https://www.cogitatiopress.com/politicsandgovernance/article/view/4751">Gender Politics and Transnational Value Contestation</a></p>
-                </div>
-            </div>
-            
-            <!-- Analysis Card 4 -->
-            <div class="analysis-card">
-                <img src="images/gender_locations.png" alt="Value Differentiation in Europe" class="card-image">
-                <div class="card-content">
-                    <h3>Social Media Trend Analysis using R and Python</h3>
-                    <p>The map shows the geographical distribution of tweets containing keywords and hashtags related to gender equality.</p>
-                </div>
-            </div>
-            
-            <!-- Analysis Card 5 -->
-            <div class="analysis-card">
-                <img src="images/twitter_ioj_transnational.png" alt="Survey" class="card-image">
-                <div class="card-content">
-                    <h3>Survey Data Analysis using R</h3>
-                    <p>Multi-country OLS regression exploring the relationship between political use of social media and support for judicial independence across six European nations, conducted as exploratory data analysis for paper <a href="https://www.tandfonline.com/doi/epdf/10.1080/23745118.2025.2451203?needAccess=true">Differentiation of Democratic Values in Europe</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
     
-    <div id="footer">
-        Last updated: May 2025
-    </div>
+<div id="container">
+  <div id="content">
+    <div class="grid-container">
+
+      <!-- Card 1 -->
+      <div class="analysis-card">
+        <div class="card-header" onclick="toggleCard(this)">
+          <div class="card-title">
+            <h3>Social Network Analysis using R</h3>
+            <span class="toggle-arrow">&#9654;</span>
+          </div>
+          <p>SNA showing network of influential users tweeting on gender equality during Women's Day.</p>
+        </div>
+        <div class="card-body">
+          <img src="images/Germany_top100_MutualFriendsNetwork.png" alt="friend network" class="card-image">
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="analysis-card">
+        <div class="card-header" onclick="toggleCard(this)">
+          <div class="card-title">
+            <h3>Agent-Based Modelling using Python and NetLogo</h3>
+            <span class="toggle-arrow">&#9654;</span>
+          </div>
+          <p>ABM simulating xenophobic language diffusion among agents with different national identities, from PhD research.</p>
+        </div>
+        <div class="card-body">
+          <img src="images/abm network_phd 50th tick 100 agents.png" alt="Agent-based model" class="card-image">
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="analysis-card">
+        <div class="card-header" onclick="toggleCard(this)">
+          <div class="card-title">
+            <h3>Topic Modelling using R</h3>
+            <span class="toggle-arrow">&#9654;</span>
+          </div>
+          <p>LDA topic modelling conducted as part of the paper <a href="https://www.cogitatiopress.com/politicsandgovernance/article/view/4751">Gender Politics and Transnational Value Contestation</a>.</p>
+        </div>
+        <div class="card-body">
+          <img src="images/GE_Italy_TopicModels_WordProbability.jpeg" alt="Topic Modelling" class="card-image">
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="analysis-card">
+        <div class="card-header" onclick="toggleCard(this)">
+          <div class="card-title">
+            <h3>Social Media Trend Analysis using R and Python</h3>
+            <span class="toggle-arrow">&#9654;</span>
+          </div>
+          <p>The map shows geographical distribution of tweets using gender equality hashtags.</p>
+        </div>
+        <div class="card-body">
+          <img src="images/gender_locations.png" alt="Tweet map" class="card-image">
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="analysis-card">
+        <div class="card-header" onclick="toggleCard(this)">
+          <div class="card-title">
+            <h3>Survey Data Analysis using R</h3>
+            <span class="toggle-arrow">&#9654;</span>
+          </div>
+          <p>OLS regression showing link between social media use and support for judicial independence in Europe. Related to <a href="https://www.tandfonline.com/doi/epdf/10.1080/23745118.2025.2451203?needAccess=true">this paper</a>.</p>
+        </div>
+        <div class="card-body">
+          <img src="images/twitter_ioj_transnational.png" alt="Survey Analysis" class="card-image">
+        </div>
+      </div>
+
+    </div> <!-- End of grid-container -->
+  </div>
 </div>
 <script>
 function toggleCard(header) {
