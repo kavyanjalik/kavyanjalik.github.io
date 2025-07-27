@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Writings - Kavyanjali K.</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to your CSS -->
+</head>
+<body>
+  <header>
+    <h1>Non-Peer Reviewed Published Work</h1>
+  </header>
+  <main>
+    <h2>Articles & Blog Posts</h2>
+    <ul>
+      <li>
+        <a href="https://theloop.ecpr.eu/international-womens-day-and-citizen-engagement-on-social-media/" target="_blank" rel="noopener noreferrer">
+          International Women's Day and citizen engagement on social media
+        </a> - Published on [The Loop, ECPR's Political Science Blog]
+      </li>
+      <li>
+        <a href="https://www.dailyo.in/politics/the-country-still-has-a-long-way-to-go-in-embracing-the-lgbt-community-1420" target="_blank" rel="noopener noreferrer">
+          To fully embrace the LGBT community, we need to come out of the closet
+        </a> - Published on [DailyO, a youth-led news and opinion platform by India Today media group]
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
