@@ -254,3 +254,91 @@ ul li {
 .analysis-card.open .card-body {
     display: block;
 }
+
+/* In style.css */
+
+/* --- Publication Card Styles --- */
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Creates a single column grid */
+    gap: 25px; /* Space between cards */
+}
+
+.publication-card {
+    display: flex; /* Aligns image and text side-by-side */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden; /* Keeps the rounded corners */
+    text-decoration: none; /* Removes underline from the link */
+    color: inherit;
+    transition: box-shadow 0.3s ease;
+}
+
+.publication-card:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Adds a subtle shadow on hover */
+}
+
+.card-image {
+    width: 200px;  /* Fixed width for the image */
+    height: 150px; /* Fixed height for the image */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.card-text {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-text h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    color: #8C1515; /* Your theme color */
+}
+
+.card-text p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* In style.css */
+
+/* --- General Style Improvements --- */
+
+/* Better default typography for the whole site */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Matches your serif headings */
+    line-height: 1.6; /* More space between lines of text */
+}
+
+/* Consistent styling for all main headings */
+#content h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+/* Refine the navigation menu container */
+.nav-menu {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px; /* Add space below the menu */
+}
+
+/* A more distinct footer */
+#footer {
+    background-color: #f8f8f8;
+    color: #777;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+}
